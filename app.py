@@ -1,8 +1,10 @@
 # Palindrome-Checker
 
-def palindrome_checker(s):
-    s = input("what is the string you want to check")
+def palindrome_checker():
+    s = input("what is the string you want to check? ")
     if s == s[::-1]:
-        print("the function is palindrome")
+        print("the string is palindrome")
     else:
-        ("the function is not palindrome")
+        print("the string is not palindrome")
+
+palindrome_checker()
